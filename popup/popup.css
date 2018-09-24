@@ -1,0 +1,101 @@
+body {
+	width: 300px;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Lato', sans-serif;
+}
+
+.logo-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.logo-container img {
+	width: 100%;
+}
+
+h3 {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+
+.wage-label {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.wage-container {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.wage-container p {
+	display: inline-block;
+	font-size: 16px;
+}
+
+#hourly-wage {
+	width: 120px;
+	margin: 0 auto;
+	border: none;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 30px;
+}
+
+#hourly-wage:focus {
+	outline: none;
+}
+
+#save-btn {
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background: #44BF9B;
+	border: none;
+	border-radius: 50px;
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFF;
+}
+
+#save-btn:focus {
+	outline: none;
+}
+
+#save-btn:hover {
+	cursor: pointer;
+}
+
+#save-btn:active {
+	background: #11A479;
+}
+
+#save-btn:focus {
+	box-shadow: 0px 0px 3px 2px #11A479;
+}
+
+.input-feedback {
+	display: none;
+	margin-bottom: 8px;
+}
+
+#success-message {
+	color: #44BF9B;
+}
+
+#error-message {
+	color: #CE3649;
+}
+
